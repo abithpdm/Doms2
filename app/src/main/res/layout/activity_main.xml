@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+    <EditText
+        android:id="@+id/emailtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:background="@drawable/passwordback"
+        android:hint="Email"
+        android:layout_marginBottom="20dp"
+
+        android:gravity="center"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="94dp"
+        tools:layout_editor_absoluteY="175dp" />
+
+    <EditText
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/passwordback"
+
+        android:id="@+id/passwrdtxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="password"
+        android:gravity="center"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="246dp" />
+
+    <Button
+        android:id="@+id/signupbtn"
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="20dp"
+
+        android:layout_height="wrap_content"
+        android:text="signup"
+        tools:layout_editor_absoluteX="164dp"
+        tools:layout_editor_absoluteY="337dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_marginBottom="20dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already have an account ? sign in"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="468dp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
