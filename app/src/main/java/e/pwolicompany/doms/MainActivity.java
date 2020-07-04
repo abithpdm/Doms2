@@ -68,6 +68,7 @@ public class MainActivity extends AppCompatActivity {
                 });
             }
             else {
+
                 Toast.makeText(MainActivity.this,"Some error occured , please try again",Toast.LENGTH_SHORT).show();
 
             }
