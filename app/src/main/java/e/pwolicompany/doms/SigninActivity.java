@@ -62,7 +62,7 @@ public class SigninActivity extends AppCompatActivity {
                     emailid.requestFocus();
                 }
                 else if (pswd.isEmpty()){
-                    passwd.setError("Please enter password");
+                    passwd.setError("Please enter your password");
                     passwd.requestFocus();
                 }
                 else if (email.isEmpty() && pswd.isEmpty())
