@@ -30,7 +30,7 @@ TextView signup;
             public void onClick(View v) {
                 Intent signup = new Intent(welcomeactivity.this,MainActivity.class);
                 startActivity(signup);
-            }
+              }
         });
     }
 }
