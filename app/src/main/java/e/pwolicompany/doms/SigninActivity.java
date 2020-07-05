@@ -89,7 +89,7 @@ public class SigninActivity extends AppCompatActivity {
                 else {
                         Toast.makeText(SigninActivity.this,"Some error occured , please try again",Toast.LENGTH_SHORT).show();
 
-                }
+                 }
 
             }
         });
