@@ -21,6 +21,7 @@ TextView signup;
         loginbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                //activity enabler for login
                 Intent loginint = new Intent(welcomeactivity.this,SigninActivity.class);
                 startActivity(loginint);
             }
