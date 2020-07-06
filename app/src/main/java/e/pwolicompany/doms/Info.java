@@ -67,7 +67,6 @@ public class Info extends AppCompatActivity {
                             {
                                 symptom_object_id = symptomarray.getJSONObject(i);
                                 id[i]=symptom_object_id.getString("common_name");
-
                             }
                             //JSONObject symptomobj= new JSONObject(httpresponse);
                            // final JSONArray symptomsarray = symptomobj.getJSONArray("common_name");
