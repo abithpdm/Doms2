@@ -97,6 +97,7 @@ public class SigninActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent backtosignup = new Intent(SigninActivity.this,MainActivity.class);
                 startActivity(backtosignup);
+
             }
         });
         }
