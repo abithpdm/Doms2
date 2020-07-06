@@ -77,7 +77,6 @@ public class SigninActivity extends AppCompatActivity {
                         public void onComplete(@NonNull Task<AuthResult> task) {
                             if(!task.isSuccessful()){
                                 Toast.makeText(SigninActivity.this,"Login error please try gain later",Toast.LENGTH_SHORT).show();
-
                             }
                             else{
                                 Intent toHome= new Intent(SigninActivity.this,Info.class);
