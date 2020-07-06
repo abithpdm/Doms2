@@ -61,7 +61,6 @@ public class MapsActivity2 extends FragmentActivity implements
                 .addOnConnectionFailedListener(this)
                 .addApi(LocationServices.API)
                 .build();
-
         //Initializing views and adding onclick listeners
         buttonSave = (ImageButton) findViewById(R.id.buttonSave);
         buttonCurrent = (ImageButton) findViewById(R.id.buttonCurrent);
