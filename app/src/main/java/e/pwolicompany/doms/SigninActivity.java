@@ -68,7 +68,6 @@ public class SigninActivity extends AppCompatActivity {
                 else if (email.isEmpty() && pswd.isEmpty())
                 {
                     Toast.makeText(SigninActivity.this,"Please make sure you entered fields correctly",Toast.LENGTH_SHORT).show();
-
                 }
                 else if(! email.isEmpty() &&! pswd.isEmpty())
                 {

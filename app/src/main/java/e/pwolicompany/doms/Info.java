@@ -65,7 +65,6 @@ public class Info extends AppCompatActivity {
                              id=new String[symptomarray.length()];
                             for (int i = 0; i<symptomarray.length(); i++)
                             {
-
                                 symptom_object_id = symptomarray.getJSONObject(i);
                                 id[i]=symptom_object_id.getString("common_name");
 

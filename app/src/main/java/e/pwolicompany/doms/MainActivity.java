@@ -49,7 +49,6 @@ public class MainActivity extends AppCompatActivity {
             else if (email.isEmpty() || pswd.isEmpty())
             {
                 Toast.makeText(MainActivity.this,"Please make sure you entered fields correctly",Toast.LENGTH_SHORT).show();
-
             }
             else if( !email.isEmpty() || !pswd.isEmpty())
             {
@@ -59,7 +58,6 @@ public class MainActivity extends AppCompatActivity {
                         if(!task.isSuccessful())
                         {
                             Toast.makeText(MainActivity.this,"User registration failed",Toast.LENGTH_SHORT).show();
-
                         }
                         else {
                             startActivity(new Intent(MainActivity.this,MapsActivity2.class));
