@@ -30,6 +30,7 @@ TextView signup;
             @Override
             public void onClick(View v) {
                 //activity enabler for sign up button
+
                 Intent signup = new Intent(welcomeactivity.this,MainActivity.class);
                 startActivity(signup);
               }
